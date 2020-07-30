@@ -2,17 +2,17 @@ package com.sira.app.springbootoracle.domain;
 
 import java.util.List;
 
-import com.sira.app.springbootoracle.entity.Products;
+import com.sira.app.springbootoracle.entity.ProductEntity;
 
 public class ProductResponse {
 
-	private List<Products> productList;
+	private List<ProductEntity> productList;
 
-	public List<Products> getProductList() {
+	public List<ProductEntity> getProductList() {
 		return productList;
 	}
 
-	public void setProductList(List<Products> productList) {
+	public void setProductList(List<ProductEntity> productList) {
 		this.productList = productList;
 	}
 
